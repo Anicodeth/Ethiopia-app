@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5F7088"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="-95dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/flag">
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/land">
+
+                </ImageView>
+
+
+                <Button
+                    android:id="@+id/addis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Addis Ababa"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tigray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Tigray"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/amhara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Amhara"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/oromia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Oromia"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/afar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Afar"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Gambela"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Gambela"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Somali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Somali"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Benshangul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Benshangul"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/Dire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="redirectToPlace"
+                    android:text="Dire Dawa"
+                    android:backgroundTint="#FFC40C"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/anthem"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:onClick="redirectToPlace"
+                android:text="Play"
+                android:backgroundTint="#FFC40C"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFC40C</item>
+        <item name="colorPrimaryDark">#FFC40C</item>
+        <item name="colorAccent">#FFC40C</item>
+    </style>
+</resources>
